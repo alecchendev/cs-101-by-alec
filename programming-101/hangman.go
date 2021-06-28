@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"syscall"
-	"strings"
 	"golang.org/x/crypto/ssh/terminal"
+	"strings"
+	"syscall"
 )
 
 func playHangman() {
@@ -23,8 +23,8 @@ func playHangman() {
 	for guessedWord != secret {
 		fmt.Println("To guess:", guessedWord)
 		fmt.Println("Guessed:", guessedChars)
-		
-		fmt.Print("Take a guess: ");
+
+		fmt.Print("Take a guess: ")
 		var guess string
 		fmt.Scanln(&guess)
 
@@ -49,5 +49,5 @@ func playHangman() {
 	}
 
 	fmt.Println("Congrats! You got the word! ->", secret)
-	
+
 }

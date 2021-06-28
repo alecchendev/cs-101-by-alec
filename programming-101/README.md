@@ -63,6 +63,8 @@ Introduction to real programming. Get exposed to the basic concepts of a program
         	fmt.Println(x)
         }
         ```
+    
+    - Collections
 
     - Functions - container for code to run
 
