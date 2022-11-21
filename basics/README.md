@@ -1,6 +1,6 @@
-# Basics of Programming
+# Basics of Programming For People with Short Attention Spans
 
-## Plan
+Not going to explain everything. Just going to show things, and have you engage with things. Often tutorials make you do a lot of reading which gets boring. We're here to code not read!
 
 ### Topics
 - Variables
